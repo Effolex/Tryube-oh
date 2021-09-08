@@ -1,0 +1,28 @@
+{
+  "name": "Tryube-oh",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+		"dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Effolex/Tryube-oh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Effolex/Tryube-oh/issues"
+  },
+  "homepage": "https://github.com/Effolex/Tryube-oh#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

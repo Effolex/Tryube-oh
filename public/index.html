@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tryube-oh</title>
+    <script type="module" src="script.js" defer></script>
+    <script type="module" src="card.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tryube-oh</h1>
+    </header>
+    <div class="card-selection">
+        
+    </div>
+    <div id="info"></div>
+    <button id="singlePlayerButton">Single Player</button>
+	<button id="multiPlayerButton">Multiplayer</button>
+    <main>
+        <div class="cards">
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+        <div class="status">
+            <div class="player p1">
+                Player 1
+                <div class="connected">Connected <span></span></div>
+                <div class="ready">Ready <span></span></div>
+            </div>
+            <div class="button-section">
+                <button>Duel Trybe</button>
+            </div>
+            <div class="player p2">
+                Player 2
+                <div class="connected">Connected <span></span></div>
+                <div class="ready">Ready <span></span></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
